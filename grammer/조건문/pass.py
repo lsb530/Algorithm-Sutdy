@@ -1,5 +1,5 @@
 # X in 리스트
-# X not in 문자열
+# X not in 3.문자열
 score = 85
 
 if score >= 80:
