@@ -1,76 +1,45 @@
 package boj.steps.a11브루트포스;
-
 import static java.lang.System.in;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class p2798 {
 
+    final static BufferedReader br = new BufferedReader(new InputStreamReader(in));
+
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
-        boolean[] flagArr = new boolean[N];
-        Arrays.fill(flagArr, false);
-        int[] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-        int count = 3;
-        int sum = 0;
-        int max = 0;
-        for (int i = 0; i < N; i++) {
-            flagArr[i] = true;
-            System.out.println(arr[i]);
-            count--;
-            for (int j = 0; j < N; j++) {
-                if (arr[i] == arr[j] || flagArr[j]) continue;
-                System.out.print(arr[j] + " ");
-                flagArr[j] = true;
-                count--;
-                if (count == 0) {
-                    j = 0;
-//                    Arrays.fill(flagArr, false);
-//                    flagArr[i] = true;
-                    count = 2;
-                    System.out.println(arr[i]);
-                    System.out.println();
+        /*
+        N, M (N=카드개수, M=3장의 합이 M을 넘지 않는 수)
+        5 21
+        5 6 7 8 9
+        M을 넘지 않으면서 M에 최대한 가까드 카드 3장의 합
+        21
+         */
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int[] a = new int[n];
+        int sum;
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < n; i++) {
+            a[i] = Integer.parseInt(st.nextToken());
+        }
+        int ans = 0;
+        for (int i = 0; i < n - 2; i++) {
+            for (int j = i + 1; j < n - 1; j++) {
+                for (int k = j + 1; k < n; k++) {
+                    sum = a[i] + a[j] + a[k];
+                    System.out.printf("a[i]=%d, a[j]=%d, a[k]=%d\n",a[i],a[j],a[k]);
+                    if (sum <= m) {
+                        ans = Math.max(ans, sum);
+                    }
                 }
             }
-            System.out.println("\n");
-            count = 3;
         }
-        // 3장 뽑는 합을 브루트포스
-//        for (int i = 0; i < N; i++) { // 첫번째 카드 뽑기
-//            sum += arr[i];
-//            count--;
-//            flagArr[i] = true;
-//            for (int j = 0; j < N; j++) {
-//                if (count <= 0) break;
-//
-//            }
-//            for (int j = count; j > 0; j--) { // 남은 2장 뽑기
-//                for (int k = 0; k < N && count > 0; k++) { // N 돌림
-//                    if (arr[i] == arr[k] || flagArr[k]) {
-//                        continue;
-//                    }
-//                    sum += arr[k];
-//                    count--;
-//                    flagArr[k] = true;
-//                    if (sum <= M) {
-//                        max = sum;
-//                    }
-//                }
-//                // count = 2
-//            }
-//            if (max > sum) max = sum;
-//            Arrays.fill(flagArr, false);
-//            sum = 0;
-//        }
-//        System.out.println(max);
-
+        System.out.println(ans);
     }
 
 }

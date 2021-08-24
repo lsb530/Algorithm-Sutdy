@@ -37,6 +37,7 @@ public class p2447_re {
 
     // blank 가 true 라면 공백칸임을 의미
     static void star(int x, int y, int N, boolean blank) {
+        out.println("N = " + N);
         // 공백칸일 경우
         if (blank) {
             for (int i = x; i < x + N; i++) {
@@ -52,6 +53,7 @@ public class p2447_re {
             arr[x][y] = '*';
             return;
         }
+
         /*
         N=27 일 경우 한 블록의 사이즈는 9이고,
         N=9 일 경우 한 블록의 사이즈는 3이듯
