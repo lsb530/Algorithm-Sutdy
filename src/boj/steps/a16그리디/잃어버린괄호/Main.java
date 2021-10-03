@@ -19,6 +19,7 @@ public class Main {
         }
         System.out.println(min);
     }
+
     private static int Add(String str) {
         String[] arr = str.split("\\+");
         int result = 0;

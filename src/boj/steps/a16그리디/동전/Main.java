@@ -25,7 +25,8 @@ public class Main {
             if(K == 0) break;
             if(coin > K) continue;
             int a = K / coin;
-            K = K - (K/coin) * coin;
+            K %= coin;
+//            K = K - (K/coin) * coin;
             result += a;
         }
         System.out.println(result);
