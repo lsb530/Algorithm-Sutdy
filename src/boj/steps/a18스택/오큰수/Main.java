@@ -1,8 +1,10 @@
 package boj.steps.a18스택.오큰수;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.Stack;
 import java.util.StringTokenizer;
@@ -10,6 +12,7 @@ import java.util.StringTokenizer;
 public class Main {
 
     final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    final static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static int[] arr;
     static int[] res;
     public static void main(String[] args) throws IOException {
@@ -30,7 +33,10 @@ public class Main {
             stack.push(i);
         }
         for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i] + " ");
+            bw.write(res[i] + " ");
+//            System.out.print(res[i] + " ");
         }
+        bw.flush();
+        bw.close();
     }
 }
