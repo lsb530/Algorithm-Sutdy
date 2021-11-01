@@ -1,0 +1,5 @@
+package programmers.devMaching2nd;
+
+public class p4 {
+//    SELECT * FROM SUBWAY_STATIONS AS S WHERE S.ID NOT IN (SELECT STATION_ID FROM LINE_ROUTES WHERE LINE_COLOR = 'Red' OR LINE_COLOR = 'Green') ORDER BY S.ID;
+}

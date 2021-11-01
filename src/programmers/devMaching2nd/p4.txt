@@ -1,0 +1,51 @@
+문제 설명
+SUBWAY_STATIONS 테이블은 지하철 정류장의 정보를 담은 테이블입니다. SUBWAY_STATIONS 테이블의 구조는 다음과 같으며, ID, NAME은 각각 정류장의 아이디, 이름을 나타냅니다.
+
+NAME	TYPE	NULLABLE
+ID	INT	FALSE
+NAME	VARCHAR	FALSE
+LINE_ROUTES 테이블은 지하철 노선이 지나는 정류장의 정보를 담은 테이블입니다. LINE_ROUTES 테이블의 구조는 다음과 같으며, ID, LINE_COLOR, STATION_ID, DRIVE_ORDER는 아이디, 노선을 나타내는 색깔, 방문할 정류장, 방문 순서를 나타냅니다.
+
+NAME	TYPE	NULLABLE
+ID	INT	FALSE
+LINE_COLOR	VARCHAR	FALSE
+STATION_ID	INT	FALSE
+DRIVE_ORDER	INT	FALSE
+문제
+빨간색(Red), 초록색(Green) 노선이 지나지 않는 정류장의 아이디와 이름을 정류장의 아이디 순으로 조회하는 SQL 문을 작성해주세요.
+
+예시
+예를 들어 다음과 같은 테이블이 주어졌습니다.
+
+SUBWAY_STATIONS
+
+ID	NAME
+1	Angel Road
+7	Barbican
+9	Station1
+16	Bethnal Green
+19	Liverpool Street
+21	Mile End
+22	City Road
+
+LINE_ROUTES
+ID	LINE_COLOR	STATION_ID	DRIVE_ORDER
+1	Green	9	1
+3	Red	16	2
+12	Yellow	19	2
+17	Yellow	7	1
+20	Red	19	3
+21	Red	21	1
+22	Green	16	2
+이를 그림으로 표현하면 다음과 같습니다.
+
+example3.png
+
+※ 웹 접근성을 고려하여 노란색(Yellow) 노선은 그림에서 황토색으로 표현하였습니다.
+
+따라서 SQL문을 실행하면 다음과 같이 나와야 합니다.
+
+ID	NAME
+1	Angel Road
+7	Barbican
+22	City Road
