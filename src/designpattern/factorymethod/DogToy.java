@@ -1,7 +1,7 @@
 package designpattern.factorymethod;
 
 // 팩터리 메서드가 생성할 객체
-public class DogToy extends AnimalToy{
+public class DogToy extends AnimalToy {
 
     @Override
     void identify() {

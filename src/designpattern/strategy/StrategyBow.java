@@ -1,6 +1,6 @@
 package designpattern.strategy;
 
-public class StrategyBow implements Strategy{
+public class StrategyBow implements Strategy {
 
     @Override
     public void runStrategy() {
