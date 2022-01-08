@@ -16,5 +16,12 @@ public class ascii {
 //        System.out.println((int)br.readLine().charAt(0));
         out.println((char)65); // A
         out.println((char)48); // 0
+        int a = -5;
+        int b = 11;
+        out.printf("a = %d, b = %d\n", a, b);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        out.printf("a = %d, b = %d\n", a, b);
     }
 }
