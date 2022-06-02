@@ -3,6 +3,7 @@ package programmers.level2.멀쩡한사각형;
 public class Solution {
 
     public static long solution(int w, int h) {
+        // 규칙 찾기
         int val = gcd(w, h);
         return ((long) w * h) - (w + h - val);
     }

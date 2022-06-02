@@ -10,9 +10,7 @@ public class Solution {
     // 각각 어피치, 콘, 프로도, 제이지, 무지, 네오, 라이언, 튜브}
     static Character[] friends = {'A', 'C', 'F', 'J', 'M', 'N', 'R', 'T'};
     static boolean[] visit;
-
     static int cnt;
-
     static Character[] line;
 
     static ArrayList<String> condition;
@@ -77,6 +75,7 @@ public class Solution {
             }
         }
     }
+    // 순열, 중복순열, 조합, 중복조합
 
     public static void main(String[] args) {
         int n1 = 2;
