@@ -20,9 +20,11 @@ public class 부분집합구하기 {
         final int end = 3;
         powerSet(end);
         System.out.println(cnt);
-        cnt = 0;
-        powerSetRecur(0);
-        System.out.println(cnt);
+
+        //        cnt = 0;
+//        powerSetRecur(0);
+//        System.out.println(cnt);
+
 //        final Stack<Character> stack = new Stack<>();
 //        search(stack, 0);
 //        System.out.println(cnt);
