@@ -14,7 +14,7 @@ public class Sol01 {
     /**
      *  오름차순 정렬
      */
-    private static int[] solution(int[] arr) {
+    public static int[] solution(int[] arr) {
         int[] clonedArr = arr.clone();
         Arrays.sort(clonedArr);
         return clonedArr;

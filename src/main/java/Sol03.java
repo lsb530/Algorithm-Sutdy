@@ -17,7 +17,7 @@ public class Sol03 {
     /**
      * 서로 다른 인덱스에 있는 2개의 수를 뽑아 더해 만들 수 있는 모든 수를 배열에 오름차순으로 담아 반환(중복제거)
      */
-    private static int[] solution(int[] arr) {
+    public static int[] solution(int[] arr) {
         ArrayList<Integer> answer = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {

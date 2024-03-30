@@ -18,7 +18,7 @@ public class Sol02 {
     /**
      * 중복 제거, 내림차순 정렬
      */
-    private static int[] solution(int[] arr) {
+    public static int[] solution(int[] arr) {
         Integer[] result = Arrays.stream(arr).boxed().distinct().toArray(Integer[]::new);
         // Arrays.sort(result, (o1, o2) -> o2.compareTo(o1));
         Arrays.sort(result, Comparator.reverseOrder());
