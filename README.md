@@ -21,7 +21,7 @@
 </details>
 <br/>
 <details>
-<summary>&nbsp;스택(8~)</summary>
+<summary>&nbsp;스택(8~14)</summary>
 
 * 8 - 올바른 괄호
   https://school.programmers.co.kr/learn/courses/30/lessons/12909
@@ -33,5 +33,8 @@
   https://school.programmers.co.kr/learn/courses/30/lessons/12973
 * 12 - 주식가격
   https://school.programmers.co.kr/learn/courses/30/lessons/42584
-* 13 - 
+* 13 - 크레인 인형 뽑기 게임
+  https://school.programmers.co.kr/learn/courses/30/lessons/64061
+* 14 - 표 편집
+  https://school.programmers.co.kr/learn/courses/30/lessons/81303
 </details>
