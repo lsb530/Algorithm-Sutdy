@@ -19,7 +19,9 @@
   https://school.programmers.co.kr/learn/courses/30/lessons/49994
 
 </details>
+
 <br/>
+
 <details>
 <summary>&nbsp;스택(8~14)</summary>
 
@@ -37,4 +39,16 @@
   https://school.programmers.co.kr/learn/courses/30/lessons/64061
 * 14 - 표 편집
   https://school.programmers.co.kr/learn/courses/30/lessons/81303
+</details>
+
+<br/>
+
+<details>
+<summary>&nbsp;큐(15~)</summary>
+
+* 15 - 요세푸스 문제
+* 16 - 기능 개발
+  https://school.programmers.co.kr/learn/courses/30/lessons/42586
+* 17 - 카드 뭉치
+  https://school.programmers.co.kr/learn/courses/30/lessons/159994
 </details>
