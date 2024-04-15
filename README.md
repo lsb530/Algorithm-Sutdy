@@ -44,7 +44,7 @@
 <br/>
 
 <details>
-<summary>&nbsp;큐(15~)</summary>
+<summary>&nbsp;큐(15~17)</summary>
 
 * 15 - 요세푸스 문제
 * 16 - 기능 개발
