@@ -52,3 +52,16 @@
 * 17 - 카드 뭉치
   https://school.programmers.co.kr/learn/courses/30/lessons/159994
 </details>
+
+<br/>
+
+<details>
+<summary>&nbsp;해시(18~)</summary>
+
+* 18 - 두 개의 수로 특정값 만들기
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/18.java
+* 19 - 완주하기 못한 선수
+  https://school.programmers.co.kr/learn/courses/30/lessons/42576
+* 20 - 할인 행사
+  https://school.programmers.co.kr/learn/courses/30/lessons/131127
+</details>
