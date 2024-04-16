@@ -47,6 +47,7 @@
 <summary>&nbsp;큐(15~17)</summary>
 
 * 15 - 요세푸스 문제
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/15.java
 * 16 - 기능 개발
   https://school.programmers.co.kr/learn/courses/30/lessons/42586
 * 17 - 카드 뭉치
@@ -56,7 +57,7 @@
 <br/>
 
 <details>
-<summary>&nbsp;해시(18~)</summary>
+<summary>&nbsp;해시(18~24)</summary>
 
 * 18 - 두 개의 수로 특정값 만들기
   https://github.com/retrogemHK/codingtest_java/blob/main/solution/18.java
@@ -68,4 +69,16 @@
   https://school.programmers.co.kr/learn/courses/30/lessons/42888
 * 22 - 베스트앨범
   https://school.programmers.co.kr/learn/courses/30/lessons/42579
+* 23 - 신고 결과 받기
+  https://school.programmers.co.kr/learn/courses/30/lessons/92334
+* 24 - 메뉴 리뉴얼
+  https://school.programmers.co.kr/learn/courses/30/lessons/72411
+</details>
+
+<br/>
+
+<details>
+<summary>&nbsp;트리(25~)</summary>
+
+
 </details>

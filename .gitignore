@@ -9,6 +9,7 @@ build/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/gbrowser_project.xml
 *.iws
 *.iml
 *.ipr
