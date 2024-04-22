@@ -78,7 +78,7 @@
 <br/>
 
 <details>
-<summary>&nbsp;트리(25~)</summary>
+<summary>&nbsp;트리(25~29)</summary>
 
 * 25 - 트리 순회 
   https://github.com/retrogemHK/codingtest_java/blob/main/solution/25.java
@@ -86,4 +86,16 @@
   https://school.programmers.co.kr/learn/courses/30/lessons/12985
 * 27 - 다단계 칫솔 판매
   https://school.programmers.co.kr/learn/courses/30/lessons/77486
+* 28 - 양과 늑대
+  https://school.programmers.co.kr/learn/courses/30/lessons/92343
+* 29 - 길 찾기 게임
+  https://school.programmers.co.kr/learn/courses/30/lessons/42892
+</details>
+
+<br/>
+
+<details>
+<summary>&nbsp;집합(30~)</summary>
+
+* 30 - 
 </details>
