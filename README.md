@@ -97,5 +97,9 @@
 <details>
 <summary>&nbsp;집합(30~)</summary>
 
-* 30 - 
+* 30 - 간단한 유니온-파인드 알고리즘 구현하기
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/30.java
+* 31 - 폰켓몬
+  https://school.programmers.co.kr/learn/courses/30/lessons/1845
+
 </details>
