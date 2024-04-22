@@ -80,5 +80,10 @@
 <details>
 <summary>&nbsp;트리(25~)</summary>
 
-
+* 25 - 트리 순회 
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/25.java
+* 26 - 예상 대진표
+  https://school.programmers.co.kr/learn/courses/30/lessons/12985
+* 27 - 다단계 칫솔 판매
+  https://school.programmers.co.kr/learn/courses/30/lessons/77486
 </details>
