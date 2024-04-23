@@ -95,11 +95,22 @@
 <br/>
 
 <details>
-<summary>&nbsp;집합(30~)</summary>
+<summary>&nbsp;집합(30~33)</summary>
 
 * 30 - 간단한 유니온-파인드 알고리즘 구현하기
   https://github.com/retrogemHK/codingtest_java/blob/main/solution/30.java
 * 31 - 폰켓몬
   https://school.programmers.co.kr/learn/courses/30/lessons/1845
+* 32 - 영어 끝말잇기
+  https://school.programmers.co.kr/learn/courses/30/lessons/12981
+* 33 - 섬 연결하기
+  https://school.programmers.co.kr/learn/courses/30/lessons/42861
+</details>
 
+<br/>
+
+<details>
+<summary>&nbsp;그래프(34~)</summary>
+
+* 34 - 
 </details>
