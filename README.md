@@ -113,11 +113,15 @@
 <summary>&nbsp;그래프(34~42)</summary>
 
 * 34 - 깊이 우선 탐색 순회
-  https://github.com/retrogemHK/codingtest_java/blob/main/solution/35.java
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/34.java
 * 35 - 너비 우선 탐색 순회
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/35.java
 * 36 - 다익스트라 알고리즘
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/36.java
 * 37 - 게임 맵 최단 거리
+  https://school.programmers.co.kr/learn/courses/30/lessons/1844
 * 38 - 네트워크
+  https://school.programmers.co.kr/learn/courses/30/lessons/43162
 * 39 - 미로 탈출
 * 40 - 배달
 * 41 - 경주로 건설
