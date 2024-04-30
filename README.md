@@ -123,7 +123,11 @@
 * 38 - 네트워크
   https://school.programmers.co.kr/learn/courses/30/lessons/43162
 * 39 - 미로 탈출
+  https://school.programmers.co.kr/learn/courses/30/lessons/159993
 * 40 - 배달
+  https://school.programmers.co.kr/learn/courses/30/lessons/12978
 * 41 - 경주로 건설
+  https://school.programmers.co.kr/learn/courses/30/lessons/67259
 * 42 - 전력망을 둘로 나누기
+  https://school.programmers.co.kr/learn/courses/30/lessons/86971
 </details>
