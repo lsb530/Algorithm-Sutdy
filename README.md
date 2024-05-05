@@ -148,5 +148,7 @@
 * 47 - 양궁 대회
   https://school.programmers.co.kr/learn/courses/30/lessons/92342
 * 48 - 외벽 점검
+  https://school.programmers.co.kr/learn/courses/30/lessons/60062
 * 49 - 사라지는 발판
+  https://school.programmers.co.kr/learn/courses/30/lessons/92345
 </details>
