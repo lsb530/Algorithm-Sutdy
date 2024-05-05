@@ -131,3 +131,22 @@
 * 42 - 전력망을 둘로 나누기
   https://school.programmers.co.kr/learn/courses/30/lessons/86971
 </details>
+
+<br/>
+
+<details>
+<summary>&nbsp;백트래킹(43~49)</summary>
+
+* 43 - 1부터 N까지 숫자 중 합이 10이 되는 조합 구하기
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/44.java
+* 44 - 스도쿠 퍼즐
+  https://github.com/retrogemHK/codingtest_java/blob/main/solution/44.java
+* 45 - 피로도
+  https://school.programmers.co.kr/learn/courses/30/lessons/87946
+* 46 - N-퀸
+  https://school.programmers.co.kr/learn/courses/30/lessons/12952
+* 47 - 양궁 대회
+  https://school.programmers.co.kr/learn/courses/30/lessons/92342
+* 48 - 외벽 점검
+* 49 - 사라지는 발판
+</details>
