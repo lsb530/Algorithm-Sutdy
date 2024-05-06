@@ -152,3 +152,19 @@
 * 49 - 사라지는 발판
   https://school.programmers.co.kr/learn/courses/30/lessons/92345
 </details>
+
+<br/>
+
+<details>
+<summary>&nbsp;정렬(50~58)</summary>
+50
+* 50 - 계수 정렬 구현하기
+* 51 - 정렬이 완료된 두 배열 합치기
+* 52 - 문자열 내 마음대로 정렬하기
+* 53 - 정수 내림차순으로 배치하기
+* 54 - K번째 수
+* 55 - 가장 큰 수
+* 56 - 튜플
+* 57 - 지형 이동
+* 58 - 전화번호 목록
+</details>
